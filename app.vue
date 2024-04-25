@@ -48,7 +48,13 @@
         </div>
 
         <div class="element-out-of-box">
-          <div class="regist-suggestion">
+<!--          <div class="regist-suggestion">-->
+
+<!--          color: #757575;-->
+<!--          font-weight: 400;-->
+<!--          width: fit-content;-->
+
+          <div class="color-myCustomColor ">
             Dont have an account?
           </div>
           <div class="sign-up-btn"
@@ -181,11 +187,11 @@
         display: flex;
         justify-content: space-between;
 
-        .regist-suggestion {
-          color: #757575;
-          font-weight: 400;
-          width: fit-content;
-        }
+        //.regist-suggestion {
+        //  color: #757575;
+        //  font-weight: 400;
+        //  width: fit-content;
+        //}
         .sign-up-btn {
           color: #006F98;
           font-weight: 700;
