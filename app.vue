@@ -99,6 +99,8 @@
   margin: -8px;
   --text-color: #161823;
   --button-primary: #169BC5;
+  --global-font: 'exo 2';
+  font-family: var(--global-font);
 
   .brand-buddies-logo {
     margin-top: 5.25rem;
@@ -213,7 +215,7 @@
       height: 3.75rem;
 
       .top-line {
-        letter-spacing: 0.125rem;
+        letter-spacing: 0.05rem;
         margin-top: -0.6875rem;
       }
 
