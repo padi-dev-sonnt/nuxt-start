@@ -1,72 +1,102 @@
 <template>
-  <div class="login-page-wrapper">
+  <div class="root-example">
 
-    <img class="brand-buddies-logo"
-         src="./src/asset/images/brand-buddies.png"/>
+    <div class="page-content">
 
-    <div class="form">
-      <div class="login-title">
-        <p class="top-line">
-          BrandBuddies
-        </p>
-        <p>
-          にログインする
-        </p>
-      </div>
+      <div class="prod-info">
+        <img class="img"
+             src="./src/asset/images/sample.png"/>
 
-      <div class="input-container">
-        <div class="input-label">
-          メールアドレス
-        </div>
-        
-        <div class="input-field">
-          
-        </div>
-
-        <div class="input-label password-label">
-          パスワード
-        </div>
-
-        <div class="input-field">
-
-        </div>
-
-        <div class="text-link"
-             @click="handleForgotPassword()">
-          Forgot password?
-        </div>
-
-        <div class="remember-password-row">
-          <div class="checkbox"
-               @click="handleRememberPassword()"/>
-          Remember password?
-        </div>
-
-        <div class="button-login"
-             @click="handleLogin()">
-          Log in
-        </div>
-
-        <div class="element-out-of-box">
-          <div class="regist-suggestion">
-            Dont have an account?
-          </div>
-          <div class="sign-up-btn"
-               @click="handleSignUp()">
-            Sign Up
-          </div>
+        <div class="detail-info">
+          Product Name <br/>
+          Product Description
         </div>
       </div>
+
+      <div class="right-side" style="border: 2px solid blue; width: 500px; height: 800px;">
+        <div class="product-form-links">
+
+        </div>
+      </div>
+
     </div>
 
-    <div class="login-page">
-      <img class="background-image"
-           src="./src/asset/images/background.jpg"/>
-    </div>
   </div>
+
+
+<!--    style="width: 1000px; height: 200px; border: 2px solid darkblue"-->
+
+<!--  <div class="login-page-wrapper">-->
+
+<!--    <img class="brand-buddies-logo"-->
+<!--         src="./src/asset/images/brand-buddies.png"/>-->
+
+<!--    <div class="form">-->
+<!--      <div class="login-title">-->
+<!--        <p class="top-line">-->
+<!--          BrandBuddies-->
+<!--        </p>-->
+<!--        <p>-->
+<!--          にログインする-->
+<!--        </p>-->
+<!--      </div>-->
+
+<!--      <div class="input-container">-->
+<!--        <div class="input-label">-->
+<!--          メールアドレス-->
+<!--        </div>-->
+<!--        -->
+<!--        <div class="input-field">-->
+<!--          -->
+<!--        </div>-->
+
+<!--        <div class="input-label password-label">-->
+<!--          パスワード-->
+<!--        </div>-->
+
+<!--        <div class="input-field">-->
+
+<!--        </div>-->
+
+<!--        <div class="text-link"-->
+<!--             @click="handleForgotPassword()">-->
+<!--          Forgot password?-->
+<!--        </div>-->
+
+<!--        <div class="remember-password-row">-->
+<!--          <div class="checkbox"-->
+<!--               @click="handleRememberPassword()"/>-->
+<!--          Remember password?-->
+<!--        </div>-->
+
+<!--        <div class="button-login"-->
+<!--             @click="handleLogin()">-->
+<!--          Log in-->
+<!--        </div>-->
+
+<!--        <div class="element-out-of-box">-->
+<!--          <div class="regist-suggestion">-->
+<!--            Dont have an account?-->
+<!--          </div>-->
+<!--          <div class="sign-up-btn"-->
+<!--               @click="handleSignUp()">-->
+<!--            Sign Up-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--    <div class="login-page">-->
+<!--      <img class="background-image"-->
+<!--           src="./src/asset/images/background.jpg"/>-->
+<!--    </div>-->
+<!--  </div>-->
 </template>
 
 <script setup>
+
+// TODO: handle text- font inter
+
   function handleForgotPassword() {
     console.log('get into fn handleForgotPassword() ')
     //  TODO: what expected
@@ -91,6 +121,46 @@
 </script>
 
 <style lang="scss" scoped>
+
+.root-example {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: -webkit-center;
+  background: #eeebeb;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  .page-content {
+    width: 1766px;
+    height: 885px;
+    background: white;
+    border-radius: 32px;
+    display: flex;
+
+    .prod-info {
+      text-align: -webkit-left;
+      width: 1160px;
+      .img {
+        border-radius: 32px;
+        object-fit: cover;
+        margin-left: 114px;
+        margin-top: 26px;
+        width: 930px;
+        height: 354px;
+      }
+      .detail-info {
+        max-width: 930px;
+        margin-left: 114px;
+        padding-top: 60px;
+        color: #000000;
+        line-height: 27.84px;
+        font-weight: 400;
+        font-size: 23px;
+      }
+    }
+
+  }
+}
 
 .login-page-wrapper {
   width: 100%;
