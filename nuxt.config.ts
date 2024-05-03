@@ -2,11 +2,13 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: [
+    '@element-plus/nuxt',
     ['@nuxtjs/google-fonts', {
       families: {
         Roboto: true,
         'Exo 2': [100, 200, 300, 400, 500, 600, 700],
       }
     }],
-  ]
+  ],
+  elementPlus: { /** Options */ }
 })
