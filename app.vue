@@ -6,7 +6,7 @@
       <ProductFormListDetailInformation :name="productFormList.name"
                                         :description="productFormList.description" />
 
-      <div class="right-side margin-top-26">
+      <div class="margin-top-26">
 
         <display-card v-for="(card, index) in cards"
                       :key="index"
@@ -76,7 +76,7 @@ function generateNewLink() {
 .root-example {
   //Resource
   .margin-top-26 {
-    margin-top: 26px;
+    margin-top: 1.625rem;
   }
 
   width: 100%;
@@ -84,19 +84,14 @@ function generateNewLink() {
   justify-content: center;
   text-align: -webkit-center;
   background: #eeebeb;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 3.125rem;
+  padding-bottom: 6.25rem;
   .page-content {
-    width: 1766px;
-    height: 885px;
+    width: 110.375rem;
+    height: 55.3125rem;
     background: white;
-    border-radius: 32px;
+    border-radius: 2rem;
     display: flex;
-
-    .right-side {
-      width: fit-content;
-      height: 800px;
-    }
   }
 }
 </style>

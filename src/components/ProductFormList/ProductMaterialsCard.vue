@@ -17,24 +17,24 @@
 
 <style lang="scss" scoped>
 .product-materials {
-  width: 523px;
-  height: 159px;
+  width: 32.6875rem;
+  height: 9.9375rem;
   border: 1px solid #000000;
-  border-radius: 22px;
+  border-radius: 1.375rem;
   box-sizing: border-box;
-  padding-top: 19px;
-  padding-left: 33px;
-  font-size: 24px;
+  padding-top: 1.1875rem;
+  padding-left: 2.0625rem;
+  font-size: 1.5rem;
   text-align: -webkit-left;
   .title {
-    line-height: 29.05px;
-    height: 29.05px;
+    line-height: 1.815625rem;
+    height: 1.815625rem;
     font-weight: 400;
     color: #000000;
-    margin-bottom: 17px;
+    margin-bottom: 1.0625rem;
   }
   .top-label {
-    margin-bottom: 17px;
+    margin-bottom: 1.0625rem;
   }
 }
 </style>

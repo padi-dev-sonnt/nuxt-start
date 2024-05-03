@@ -51,58 +51,40 @@ const rowConfigs = computed(() => {
 </script>
 
 <style lang="scss" scoped>
-
-//Resource
-.margin-right-13 {
-  margin-right: 13px;
-}
-
-.margin-top-23 {
-  margin-top: 23px;
-}
-
-.margin-bottom-21 {
-  margin-bottom: 21px;
-}
-
-.margin-bottom-25 {
-  margin-bottom: 25px;
-}
-
 .margin-bottom-23 {
-  margin-bottom: 23px;
+  margin-bottom: 1.4375rem;
 }
 
 .margin-bottom-14 {
-  margin-bottom: 14px;
+  margin-bottom: 0.875rem;
 }
 
 .product-reward {
-  width: 523px;
-  height: 192px;
+  width: 32.6875rem;
+  height: 12rem;
   border: 1px solid #000000;
-  border-radius: 22px;
+  border-radius: 1.375rem;
   box-sizing: border-box;
-  padding-top: 17px;
-  padding-left: 33px;
+  padding-top: 1.0625rem;
+  padding-left: 2.0625rem;
   text-align: -webkit-left;
   p {
     margin-top: 0
   }
   .reward-row {
-    line-height: 21.78px;
-    height: 21.78px;
+    line-height: 1.36125rem;
+    height: 1.36125rem;
     font-weight: 400;
     display: flex;
-    font-size: 18px;
+    font-size: 1.125rem;
     .label-column {
-      width: 252px;
+      width: 15.75rem;
     }
   }
   .title {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 400;
-    line-height: 31.47px;
+    line-height: 1.966875rem;
   }
 }
 </style>

@@ -40,40 +40,40 @@ function copyLinkUrlToClipboard(linkUrl: String) {
 
 //Resource
 .margin-right-13 {
-  margin-right: 13px;
+  margin-right: 0.8125rem;
 }
 
 .margin-top-23 {
-  margin-top: 23px;
+  margin-top: 1.4375rem;
 }
 
 .margin-bottom-21 {
-  margin-bottom: 21px;
+  margin-bottom: 1.3125rem;
 }
 
 .margin-bottom-25 {
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 .link-area {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  padding-right: 22px;
-  padding-left: 13px;
+  padding-right: 1.375rem;
+  padding-left: 0.8125rem;
   width: -webkit-fill-available;
   text-align: left;
-  height: 47px;
-  line-height: 47px;
-  font-size: 22px;
+  height: 2.9375rem;
+  line-height: 2.9375rem;
+  font-size: 1.375rem;
   font-weight: 400;
   border: 1px solid #000000;
-  border-radius: 17px;
+  border-radius: 1.0625rem;
 
   .action-btn-container {
     display: flex;
     .link-action-button {
-      width: 24px;
+      width: 1.5rem;
       cursor: pointer;
     }
   }

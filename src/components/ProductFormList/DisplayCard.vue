@@ -38,30 +38,13 @@ const emit = defineEmits(['delete-link']);
 </script>
 
 <style lang="scss" scoped>
-
-//Resource
-.margin-right-13 {
-  margin-right: 13px;
-}
-
-.margin-top-23 {
-  margin-top: 23px;
-}
-
-.margin-bottom-21 {
-  margin-bottom: 21px;
-}
-
 .margin-top-36 {
-  margin-top: 36px;
+  margin-top: 2.25rem;
 }
 
-.margin-bottom-25 {
-  margin-bottom: 25px;
-}
 
 .margin-top-39 {
-  margin-top: 39px;
+  margin-top: 2.4375rem;
 }
 
 </style>

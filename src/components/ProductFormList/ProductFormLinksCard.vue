@@ -99,27 +99,27 @@ function generateNewLink() {
 
 //Resource
 .margin-right-13 {
-  margin-right: 13px;
+  margin-right: 0.8125rem;
 }
 
 .margin-top-23 {
-  margin-top: 23px;
+  margin-top: 1.4375rem;
 }
 
 .margin-bottom-21 {
-  margin-bottom: 21px;
+  margin-bottom: 1.3125rem;
 }
 
 .margin-bottom-25 {
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 .product-form-links {
-  width: 523px;
-  height: 354px;
+  width: 32.6875rem;
+  height: 22.125rem;
   border: 1px solid #000000;
-  border-radius: 22px;
-  padding: 21px 25px 19px 25px;
+  border-radius: 1.375rem;
+  padding: 1.3125rem 1.5625rem 1.1875rem 1.5625rem;
   box-sizing: border-box;
 
   .form-header {
@@ -128,67 +128,67 @@ function generateNewLink() {
     align-items: center;
     .form-title {
       font-weight: 400;
-      font-size: 24px;
-      line-height: 29.05px;
+      font-size: 1.5rem;
+      line-height: 1.815625rem;
       color: #000000;
-      width: fit-content
+      width: fit-content;
     }
     .generate-btn {
-      padding: 0 12px;
+      padding: 0 0.75rem;
       box-sizing: border-box;
       display: flex;
       align-items: center;
       justify-content: space-between;
       cursor: pointer;
-      width: 179px;
-      height: 43px;
-      font-size: 15px;
+      width: 11.1875rem;
+      height: 2.6875rem;
+      font-size: 0.9375rem;
       font-weight: 400;
-      line-height: 43px;
+      line-height: 2.6875rem;
       background: #ADE3F4;
-      border-radius: 20px;
-      margin-right: 4px;
+      border-radius: 1.25rem;
+      margin-right: 0.25rem;
       .custom-icon {
-        font-size: 28px;
+        font-size: 1.75rem;
       }
     }
   }
 
   .pagination-container {
     width: -webkit-fill-available;
-    height: 35px;
+    height: 2.1875rem;
     display: flex;
     justify-content: flex-end;
-    margin-top: 23px;
+    margin-top: 1.4375rem;
 
     //TODO: hover & selected
     :deep(li.is-active) {
       color: black;
       border: 1px solid #000000;
-      width: 45px;
-      height: 38px;
-      font-size: 20px;
+      width: 2.8125rem;
+      height: 2.375rem;
+      font-size: 1.25rem;
       font-weight: 400;
-      border-radius: 15px;
+      border-radius: 0.9375rem;
       background: white;
     }
     :deep(li, li.is-active) {
       border: 1px solid #000000;
-      width: 45px;
-      height: 38px;
-      font-size: 20px;
+      width: 2.8125rem;
+      height: 2.375rem;
+      font-size: 1.25rem;
       font-weight: 400;
-      border-radius: 15px;
+      border-radius: 0.9375rem;
       background: white;
     }
 
     :deep(button) {
       border: 1px solid #000000;
-      width: 45px;
-      height: 38px;
-      font-size: 20px;
+      width: 2.8125rem;
+      height: 2.375rem;
+      font-size: 1.25rem;
       font-weight: 400;
-      border-radius: 15px;
+      border-radius: 0.9375rem;
       background: white;
     }
   }

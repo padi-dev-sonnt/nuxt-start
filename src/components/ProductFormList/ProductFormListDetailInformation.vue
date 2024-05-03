@@ -24,40 +24,40 @@ const props = defineProps({
 
 //Resource
 .margin-right-13 {
-  margin-right: 13px;
+  margin-right: 0.8125rem;
 }
 
 .margin-top-23 {
-  margin-top: 23px;
+  margin-top: 1.4375rem;
 }
 
 .margin-bottom-21 {
-  margin-bottom: 21px;
+  margin-bottom: 1.3125rem;
 }
 
 .margin-bottom-25 {
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 .prod-info {
   text-align: -webkit-left;
-  width: 1160px;
+  width: 72.5rem;
   .img {
-    border-radius: 32px;
+    border-radius: 2rem;
     object-fit: cover;
-    margin-left: 114px;
-    margin-top: 26px;
-    width: 930px;
-    height: 354px;
+    margin-left: 7.125rem;
+    margin-top: 1.625rem;
+    width: 58.125rem;
+    height: 22.125rem;
   }
   .detail-info {
-    max-width: 930px;
-    margin-left: 114px;
-    padding-top: 60px;
+    max-width: 58.125rem;
+    margin-left: 7.125rem;
+    padding-top: 3.75rem;
     color: #000000;
-    line-height: 27.84px;
+    line-height: 1.74rem;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 1.4375rem;
   }
 }
 </style>
