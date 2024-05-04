@@ -74,6 +74,7 @@ function generateNewLink() {
 
 .page-content {
   width: 110.375rem;
+  height: fit-content;
   padding-bottom: 4.75rem;
   background: white;
   border-radius: 2rem;
