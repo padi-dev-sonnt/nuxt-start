@@ -88,7 +88,7 @@ function generateNewLink() {
   padding-bottom: 6.25rem;
   .page-content {
     width: 110.375rem;
-    height: 55.3125rem;
+    padding-bottom: 4.75rem;
     background: white;
     border-radius: 2rem;
     display: flex;
