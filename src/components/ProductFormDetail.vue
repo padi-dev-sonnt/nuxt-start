@@ -23,9 +23,9 @@
 
 <script lang="ts" setup>
 
-import DisplayCard from "./ProductFormList/DisplayCard.vue";
+import DisplayCard from "./ProductFormDetail/DisplayCard.vue";
 
-import ProductFormListDetailInformation from "./ProductFormList/ProductFormListDetailInformation.vue";
+import ProductFormListDetailInformation from "./ProductFormDetail/ProductFormListDetailInformation.vue";
 
 const productFormList = ref({
   name: 'Example Product-form-list Name',
